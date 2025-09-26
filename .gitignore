@@ -1,0 +1,17 @@
+# Ignore virtual environments
+venv/
+__pycache__/
+
+# Ignore model/cache
+final_models/
+model_cache/
+wandb/
+data/
+test_data/
+
+# Ignore large result files
+*.json
+*.pth
+*.pt
+*.bin
+*.h5
